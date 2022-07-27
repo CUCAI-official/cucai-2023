@@ -1,0 +1,61 @@
+{
+  "name": "cucai",
+  "description": "website for Canadian Undergraduate Conference on AI",
+  "version": "1.1.3",
+  "author": "Parker Rowe & Katie Lu",
+  "dependencies": {
+    "bootstrap": "*",
+    "bulma": "*",
+    "date-and-time": "^0.14.2",
+    "gatsby": "^2.32.0",
+    "gatsby-background-image": "*",
+    "gatsby-image": "*",
+    "gatsby-plugin-netlify": "^2.11.0",
+    "gatsby-plugin-purgecss": "*",
+    "gatsby-plugin-react-helmet": "*",
+    "gatsby-plugin-sharp": "*",
+    "gatsby-plugin-styled-components": "*",
+    "gatsby-remark-copy-linked-files": "*",
+    "gatsby-remark-images": "*",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "*",
+    "gatsby-transformer-remark": "*",
+    "gatsby-transformer-sharp": "*",
+    "ics-to-json": "^1.0.0",
+    "imagemin-pngquant": "*",
+    "lodash": "^4.17.20",
+    "lodash-webpack-plugin": "*",
+    "lottie-web": "*",
+    "moment-timezone": "^0.5.32",
+    "pngquant-bin": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-bootstrap": "*",
+    "react-dom": "*",
+    "react-helmet": "*",
+    "react-particles-js": "^3.4.1",
+    "react-scroll-parallax": "*",
+    "react-slick": "^0.27.14",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "*",
+    "uuid": "*"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save",
+    "clean": "gatsby clean",
+    "start": "npm run develop",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "*",
+    "react-reveal": "*"
+  }
+}
