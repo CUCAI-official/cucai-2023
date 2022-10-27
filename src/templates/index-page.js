@@ -515,7 +515,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
           <StyledInfo>
             March, 2023 |{" "}
             <a target="_blank" rel="noreferrer" href="https://hopin.com/">
-              Online Experience
+              Queen's University
             </a>
           </StyledInfo>
 
@@ -539,7 +539,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
           </MobileSocials>
         </HeroText>
         <HeroLogo>
-          <Img fluid={data.logo2023.childImageSharp.fluid} />
+          <Img fluid={data.logo2023inverted.childImageSharp.fluid} />
         </HeroLogo>
       </StyledHeroContent>
     </StyledHero>
@@ -966,7 +966,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    logo2023: file(relativePath: { eq: "logo2023.png" }) {
+    logo2023inverted: file(relativePath: { eq: "logo2023inverted.svg" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 800) {
           ...GatsbyImageSharpFluid

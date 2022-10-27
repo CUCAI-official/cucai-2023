@@ -2,7 +2,7 @@ module.exports = {
   socialMedia: [
     {
       name: "Instagram",
-      url: "https://www.instagram.com/cucai2021/",
+      url: "https://www.instagram.com/cucai2023/",
     },
     {
       name: "Facebook",
