@@ -966,7 +966,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    logo2023inverted: file(relativePath: { eq: "logo2023inverted.svg" }) {
+    logo2023inverted: file(relativePath: { eq: "logo2023inverted.png" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 800) {
           ...GatsbyImageSharpFluid
