@@ -38,14 +38,7 @@ const Footer = () => {
     <StyledFooter>
       <StyledFooterContent>
         <Text>
-          We acknowledge the land we are meeting on is the traditional territory
-          of many nations including the Mississaugas of the Credit, the
-          Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and
-          is now home to many diverse FirstNations, Inuit and Métis peoples. We
-          also acknowledge that the city of Toronto is covered by Treaty 13 with
-          the Mississaugas of the Credit. To acknowledge this traditional
-          territory is to recognize the territory’s significance for the
-          Indigenous peoples who lived, and continue to live, upon it.
+          Queen’s University is situated on the territory of the Haudenosaunee and Anishinaabek
         </Text>
         <Socials direction="row" />
         <a href="mailto:chair@cucai.ca">chair@cucai.ca</a>
@@ -53,7 +46,7 @@ const Footer = () => {
           <StyledLogo src={logo} alt="logo" />
         </Link>
         <Text>
-          Copyright © 2021 CUCAI Canadian Undergraduate Conference on AI. All
+          Copyright © 2023 CUCAI Canadian Undergraduate Conference on AI. All
           Rights Reserved
         </Text>
       </StyledFooterContent>
