@@ -702,10 +702,10 @@ const NetworkingOpportunities = ({ data }) => (
 
         <p>
           Exciting events throughout the conference designed to show
-          undergraduate students the present and future of AI in industry. New
-          to CUCAI 2021, we hosted our Taster Event on January 30th, 2021, to
-          connect students to our exclusive recruitment pipeline prior to the
-          March conference.{" "}
+          undergraduate students the present and future of AI in industry. We
+          hope to provide students with the opportunity to connect with the
+          companies on the frontier of AI, hoping to find opportunities to 
+          push the boundaries on AI. {" "}
         </p>
       </EventTitleAndDesc>
     </EventWrapper>
