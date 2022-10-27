@@ -539,7 +539,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
           </MobileSocials>
         </HeroText>
         <HeroLogo>
-          <Img fluid={data.logo2021.childImageSharp.fluid} />
+          <Img fluid={data.logo2023.childImageSharp.fluid} />
         </HeroLogo>
       </StyledHeroContent>
     </StyledHero>
@@ -966,7 +966,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    logo2021: file(relativePath: { eq: "logo2021.png" }) {
+    logo2023: file(relativePath: { eq: "logo2023.png" }) {
       childImageSharp {
         fluid(quality: 100, maxWidth: 800) {
           ...GatsbyImageSharpFluid
