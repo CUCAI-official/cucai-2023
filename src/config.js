@@ -66,12 +66,16 @@ module.exports = {
       link: "https://www.mcgillai.com/",
     },
     {
-      name: "Carleton AI Society",
-      link: "https://carletonai.com/",
+      name: "Wat AI",
+      link: "https://www.linkedin.com/company/wat-ai/",
     },
     {
-      name: "P-ai",
-      link: "https://www.p-ai.org/",
+      name: "York AI",
+      link: "https://www.instagram.com/aiyu.ca/?igshid=YmMyMTA2M2Y%3D",
+    },
+    {
+      name: "U Vic AI",
+      link: "https://www.instagram.com/aiyu.ca/?igshid=YmMyMTA2M2Y%3D",
     },
   ],
   conferenceImages: [
