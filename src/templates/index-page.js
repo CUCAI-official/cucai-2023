@@ -513,7 +513,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
             Artificial intelligence, <i>real change.</i>
           </StyledSlogan>
           <StyledInfo>
-            March 6 - 7, 2021 |{" "}
+            March, 2023 |{" "}
             <a target="_blank" rel="noreferrer" href="https://hopin.com/">
               Online Experience
             </a>
