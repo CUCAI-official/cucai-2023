@@ -297,7 +297,7 @@ const SpeakersPage = ({ data }) => {
       <Helmet title="Speakers" />
       <StyledSpeakersPage>
         <Header>
-          <h1>Our Guests</h1>
+          <h1>Our Past Guests</h1>
           <h2>Meet our wonderful speakers, panelists and judges!</h2>
         </Header>
         <Speakers>
