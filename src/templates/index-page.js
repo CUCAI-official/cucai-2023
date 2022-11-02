@@ -973,7 +973,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    cityImg: file(relativePath: { eq: "CIDEE.png" }) {
+    cityImg: file(relativePath: { eq: "Queens_Vector.png" }) {
       childImageSharp {
         fluid(quality: 80, maxWidth: 1500) {
           ...GatsbyImageSharpFluid
