@@ -670,7 +670,7 @@ const PremierSpeakerSection = () => {
             discuss a variety of fascinating AI topics.
           </p>
           <Link to="/speakers">
-            <Button borderStyle="solid" borderColour="black">Learn More</Button>
+            <Button borderStyle="solid" borderColour="black">Discover Past Speakers</Button>
           </Link>
         </SpeakerTitleAndDesc>
         <SpeakerCarouselWrapper>
@@ -845,7 +845,7 @@ const SponsorSection = ({ data }) => (
               Interested in sponsoring? Please contact our chairs at{" "}
               <u>chair@cucai.ca</u>
             </p>
-            <a href="CUCAI-2021-Sponsorship-Package.pdf">
+            <a href="CUCAI 2023 Sponsorship Package.pdf">
               <Button backgroundColour="white" borderStyle="none">
                 View Our Sponsorship Package
               </Button>

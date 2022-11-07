@@ -47,15 +47,15 @@ const Involved = () => {
               <Tab.Pane eventKey="Delegates">
                 <StyledDetails>
                   <p>
-                    Delegate applications are now closed! Check out our delegates package for more info on the event.
+                    Delegate applications will open in the new year. Join our Discord to stay up to date!
                   </p>
 
                   <a 
                     target="_blank"
                     rel="noreferrer"
-                    href="CUCAI-2021-Delegates-Package.pdf">
+                    href="https://discord.gg/eKy2Pgex">
                     <Button borderStyle="solid">
-                      Delegates Package
+                      Join Our Discord
                     </Button>
                   </a>
                 </StyledDetails>
