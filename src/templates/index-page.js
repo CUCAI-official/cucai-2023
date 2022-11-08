@@ -568,7 +568,10 @@ const BlurbSection = ({ data, blurbtitle, blurbdesc, blurbimg }) => (
       </StyledBlurbDive>
     </Fade>
     <Fade bottom distance="80px">
-      <StyledBlurbTheme>
+      
+      {/*HIDE THEME UNTIL IT IS REVEALVED */}
+
+      {/*<StyledBlurbTheme>
         <BlurbTitleAndDesc>
           <SectionSubtitle>
             <SectionSubtitle className="medium">Theme Reveal: </SectionSubtitle>
@@ -587,7 +590,7 @@ const BlurbSection = ({ data, blurbtitle, blurbdesc, blurbimg }) => (
         <BlurbContent>
           <Img fluid={data.themeImg.childImageSharp.fluid} />
         </BlurbContent>
-      </StyledBlurbTheme>
+      </StyledBlurbTheme>*/}
     </Fade>
   </StyledBlurbSection>
 );
