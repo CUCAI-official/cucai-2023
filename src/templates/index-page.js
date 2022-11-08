@@ -568,7 +568,7 @@ const BlurbSection = ({ data, blurbtitle, blurbdesc, blurbimg }) => (
       </StyledBlurbDive>
     </Fade>
     <Fade bottom distance="80px">
-      
+
       {/*HIDE THEME UNTIL IT IS REVEALVED */}
 
       {/*<StyledBlurbTheme>
@@ -621,15 +621,17 @@ const ConferenceEvents = ({ data }) => (
       <Fade bottom distance="80px">
         <WorkshopsShowcase data={data} />
       </Fade>
-      <Fade bottom distance="80px">
+      <AIPitchComp data={data} />
+      {/*<Fade bottom distance="80px">
         <AIPitchComp data={data} />
-      </Fade>
-      <Fade bottom distance="80px">
+      </Fade>*/}
+      {/*<Fade bottom distance="80px">
         <ComplimentaryMeals data={data} />
-      </Fade>
-      <Fade bottom distance="80px">
+      </Fade>*/}
+      <DesignTeamShowcase data={data} />
+      {/*<Fade bottom distance="80px">
         <DesignTeamShowcase data={data} />
-      </Fade>
+      </Fade>*/}
     </ConferenceEventsList>
   </StyledConferenceEvents>
 );
@@ -795,12 +797,12 @@ const ComplimentaryMeals = ({ data }) => (
         </p>
       </EventTitleAndDesc>
     </EventWrapper>
-  </StyledEvent>
+</StyledEvent> 
 );
 
 const DesignTeamShowcase = ({ data }) => {
   return (
-    <StyledEvent className="grey-bg">
+    <StyledEvent className="white-bg">
       <EventWrapper>
         <EventContent>
           <Img
