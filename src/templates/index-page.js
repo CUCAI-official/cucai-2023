@@ -628,7 +628,7 @@ const ConferenceEvents = ({ data }) => (
       {/*<Fade bottom distance="80px">
         <ComplimentaryMeals data={data} />
       </Fade>*/}
-      <DesignTeamShowcase data={data} />
+      {/*<DesignTeamShowcase data={data} />*/}
       {/*<Fade bottom distance="80px">
         <DesignTeamShowcase data={data} />
       </Fade>*/}
