@@ -73,8 +73,8 @@ const Involved = () => {
                     judges.
                   </p>
 
-                <a href="CUCAI 2021 Speaker Package.pdf">
-                  <Button borderStyle="solid">Speakers Package</Button>
+                <a href="mailto:chair@cucai.ca">
+                  <Button borderStyle="solid">Conact Us</Button>
                 </a>
               </StyledDetails>
             </Tab.Pane>

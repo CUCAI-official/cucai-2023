@@ -81,123 +81,180 @@ const Header = styled.section`
 const OurTeam = ({ data }) => {
   const ourTeam = [
     {
-      first: "Berkeley",
-      last: "Wilson",
+      first: "Chris",
+      last: "Gauthier",
       title: "Co-Chair",
-      work: "Mechanical Engineering '21 @ Queens",
-      image: data.berkeley.childImageSharp.fluid,
+      work: "Computer Engineering ‘23 @ Queens",
+      image: data.chris.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/j-berkeley-wilson-queensu/",
+          url: "https://www.linkedin.com/in/chrisgauthier9/",
         },
       ],
     },
     {
-      first: "Max",
-      last: "Bennett",
+      first: "Cooper",
+      last: "Lloyd",
       title: "Co-Chair",
-      work: "Applied Mathematics '22 @ Queens",
-      image: data.max.childImageSharp.fluid,
+      work: "Computing '23 @ Queens",
+      image: data.cooper.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/max-bennett-881951172/",
+          url: "https://www.linkedin.com/in/cooper-lloyd/",
         },
       ],
     },
     {
-      first: "Ellie",
-      last: "Mehltretter",
-      title: "Delegates Coordinator",
-      work: "Mathematics '21 @ Queens",
-      image: data.ellie.childImageSharp.fluid,
-      socials: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/gabrielle-mehltretter-069987170/",
-        },
-      ],
-    },
-    {
-      first: "Jack",
-      last: "Perry",
-      title: "Delegates Coordinator",
-      work: "Commerce '22 @ Queens",
-      image: data.jackP.childImageSharp.fluid,
-      socials: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/jack-p-b40941129/",
-        },
-      ],
-    },
-    {
-      first: "Catherine",
-      last: "Wu",
-      title: "Logistics Manager",
-      work: "Biomedical Computation '22 @ Queens",
-      image: data.catherine.childImageSharp.fluid,
-      socials: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/catherinewu-/",
-        },
-      ],
-    },
-    {
-      first: "Jack",
-      last: "Grebenc",
+      first: "Lauren",
+      last: "Lidhar",
       title: "Logistics Coordinator",
-      work: "Mathematics & Computing '21 @ Queens",
-      image: data.jackG.childImageSharp.fluid,
+      work: "Computing '23 @ Queens",
+      image: data.lauren.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/jack-grebenc-45b636174/",
+          url: "https://www.linkedin.com/in/lauren-lidhar/",
         },
       ],
     },
     {
-      first: "Will",
-      last: "Stewart",
+      first: "Tung",
+      last: "Pham",
       title: "Logistics Coordinator",
-      work: "Commerce '22 @ Queens",
-      image: data.will.childImageSharp.fluid,
+      work: "Computing '23 @ Queens",
+      image: data.tung.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/willjgstewart/",
+          url: "https://www.linkedin.com/in/tung-pham-1b01571b7/",
         },
       ],
     },
     {
-      first: "Parker",
-      last: "Rowe",
-      title: "Marketing & Web Development",
-      work: "Computer Engineering '22 @ Queens",
-      image: data.parker.childImageSharp.fluid,
+      first: "Jordan",
+      last: "Belinsky",
+      title: "Web Development Coordinator",
+      work: "Computing '24 @ Queens",
+      image: data.jordan.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/parker-a-rowe/",
-        },
-        {
-          name: "Website",
-          url: "https://prowe.ca/",
+          url: "https://www.linkedin.com/in/jordanbelinsky/",
         },
       ],
     },
     {
-      first: "Katie",
-      last: "Lu",
-      title: "Marketing & Graphic Design",
-      work: "Computing & The Creative Arts '21 @ Queens",
-      image: data.katie.childImageSharp.fluid,
+      first: "Adriana",
+      last: "Valencia",
+      title: "Product Designer",
+      work: "Fine Arts '21 @ Ryerson Arts",
+      image: data.adriana.childImageSharp.fluid,
       socials: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/katie-lu-0244b8170/",
+          url: "https://www.linkedin.com/in/adriavalencia/",
+        },
+      ],
+    },
+    {
+      first: "Claire",
+      last: "Cunningham",
+      title: "Marketing Coordinator",
+      work: "Commerce '23 @ Queens",
+      image: data.claire.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/claire-cunningham2/",
+        },
+      ],
+    },
+    {
+      first: "Alwin",
+      last: "Raymundo",
+      title: "Content Designer",
+      work: "Interaction Design '23 @ Sheridan College",
+      image: data.alwin.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/alwin-raymundo/",
+        },
+      ],
+    },
+    {
+      first: "Lejla",
+      last: "Sain",
+      title: "Content Designer",
+      work: "Business Administration '24 @ Sheridan College",
+      image: data.leijla.childImageSharp.fluid,
+      socials: [
+      ],
+    },
+    {
+      first: "Robbie",
+      last: "Huang",
+      title: "Web Developper",
+      work: "Interaction Design '23 @ Sheridan College",
+      image: data.robbie.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/robbie-huang-/",
+        },
+      ],
+    },
+    {
+      first: "Marcelo",
+      last: "Chaman Mallqui",
+      title: "Sponsorship Coordinator",
+      work: "Commerce & Computing '27 @ Queen's University",
+      image: data.marcelo.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/alwin-raymundo/",
+        },
+      ],
+    },
+    {
+      first: "Jonah",
+      last: "Deutsch",
+      title: "Sponsorship Coordinator",
+      work: "Commerce '25 @ Queen's University",
+      image: data.jonah.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/jonahdeutsch/",
+        },
+      ],
+    },
+    {
+      first: "Adi",
+      last: "Groumoutis",
+      title: "Delegates Coordinator",
+      work: "Commerce '25 @ Queen's University",
+      image: data.adi.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/alwin-raymundo/",
+        },
+      ],
+    },
+    {
+      first: "Jarett",
+      last: "Dewbury",
+      title: "Speakers Coordinator",
+      work: "Biomedical Engineering '26 @ Waterloo University",
+      image: data.jarett.childImageSharp.fluid,
+      socials: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/jarett-dewbury/",
         },
       ],
     },
@@ -241,63 +298,98 @@ export const pageQuery = graphql`
         slogan
       }
     }
-    berkeley: file(relativePath: { eq: "team/berkeley-wilson.png" }) {
+    adi: file(relativePath: { eq: "team/adi-groumoutis.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    max: file(relativePath: { eq: "team/max-bennett.png" }) {
+    adriana: file(relativePath: { eq: "team/adriana-valencia.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    jackP: file(relativePath: { eq: "team/jack-perry.png" }) {
+    alwin: file(relativePath: { eq: "team/alwain-raymundo.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    jackG: file(relativePath: { eq: "team/jack-grebenc.png" }) {
+    chris: file(relativePath: { eq: "team/chris-gauthier.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    catherine: file(relativePath: { eq: "team/catherine-wu.png" }) {
+    claire: file(relativePath: { eq: "team/claire-cunningham.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    ellie: file(relativePath: { eq: "team/ellie-mehltretter.png" }) {
+    cooper: file(relativePath: { eq: "team/cooper-lloyd.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    katie: file(relativePath: { eq: "team/katie-lu.png" }) {
+    jarett: file(relativePath: { eq: "team/jarett-dewbury.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    will: file(relativePath: { eq: "team/will-stewart.png" }) {
+    jonah: file(relativePath: { eq: "team/jonah-deutsch.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    parker: file(relativePath: { eq: "team/parker-rowe.png" }) {
+    jordan: file(relativePath: { eq: "team/jordan-belensky.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    lauren: file(relativePath: { eq: "team/lauren-lidhar.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    leijla: file(relativePath: { eq: "team/lejla-sain.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    marcelo: file(relativePath: { eq: "team/marcelo-chaman-mallqui.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    robbie: file(relativePath: { eq: "team/tung-pham.png" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    tung: file(relativePath: { eq: "team/tung-pham.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
