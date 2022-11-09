@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 import Button from "../components/Button";
+import theme from "../styles/theme";
+
 
 import { Tab, Row, Col, Nav } from "react-bootstrap/";
 
@@ -81,15 +83,12 @@ const Involved = () => {
             <Tab.Pane eventKey="Student Groups">
               <StyledDetails>
                 <p>
-                  In its inaugural year of implementation, CUCAI has developed a
-                  “Tier Collaboration Program” structured to facilitate
-                  involvement from undergraduate AI groups across Canada.
-                  Incentives include reserved delegate spots, design showcase
-                  involvement, participation in the incubator pitch competition,
-                  the undergraduate AI executive showcase and more.
-                  Opportunities for partnership with other Canadian
-                  undergraduate AI societies have never been so plentiful, as
-                  CUCAI’s national reach expands.
+                  CUCAI aims to bring together students from across the country. We
+                  partner with Student Organization throughout Canada to send delegates
+                  interested in AI who present their projects at CUCAI.
+                  If you are a part of a student organization and want to be a part of 
+                  CUCAI, please do not hesitate to contact us at <a href="mailto:chair@cucai.ca">chair@cucai.ca</a>.
+                  For more information, please download our Student Group Partnership Package below.
                 </p>
 
                   <a href="CUCAI Student Group Partnership Package.pdf">

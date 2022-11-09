@@ -243,8 +243,8 @@ const SponsorTiers = () => {
   return (
     <StyledSponsorTiers>
       <Header>
-        <h1>Our Sponsors</h1>
-        <h2>Thank you so much for making CUCAI 2021 possible!</h2>
+        <h1>Our Past Sponsors</h1>
+        <h2>Thank you so much for making CUCAI possible!</h2>
       </Header>
       <h6>Title</h6>
       <TitleSponsors>

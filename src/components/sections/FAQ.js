@@ -8,31 +8,28 @@ import upArrow from "../../img/up-arrow.svg";
 
 const questions = [
   {
-    q: "How much do tickets cost?",
-    a: `<p>Tickets cost $10 for ALL delegates. Of this price, half of it will be donated to our selected charity for this year, the
-      <a target="_blank" rel="noreferrer" href="https://ai4good.org/">
-          AI for Good Foundation.
-        </a></p>`,
-  },
-  {
     q: "When is the conference taking place?",
-    a: `<p>CUCAI 2021 is taking place on the weekend of March 6th and 7th. Conference events will run from from 9:00 am to 4:10 pm on Saturday, March 6th, and 9:30 am to 5:30 pm on Sunday, March 7th.</p>`,
+    a: `<p>CUCAI 2023 will be taking place on the weekend of March 4th and 5th. Events will run from 9:00 am to 7:00 pm on Saturday, and 10:00 am to 4:00 pm Sunday.</p>`,
   },
   {
     q: "Where is the conference taking place?",
-    a: `<p>This year, we will be hosting CUCAI via Hopin, an online events platform, that will enable us to deliver a meaningful and engaging conference, while respecting COVID-19 restrictions on in-person gatherings.</p>`,
+    a: `<p>This year, we are proud to be hosting CUCAI at it's birthplace on Queen's Campus in Kingston, Ontario.</p>`,
   },
   {
     q: "What is included with a ticket?",
-    a: `<p>The purchase of a conference ticket includes access to all conference events on March 6th and 7th, as well as <strong>$40 in complimentary meals</strong> distributed via Uber Eats.</p>`,
+    a: `<p>The purchace of a ticket includes access to all conference events, as well as meals on both Saturday and Sunday during the conference hours, including a Gala Dinner Saturday evening, followed by a social. Tickets for non-Kingston residents will be available for discounted hotel accomodations. </p>`,
   },
   {
-    q: "When do conference applications close?",
-    a: `<p>Conference applications close at 11:59 PM EST on Thursday, February 25th.</p>`,
+    q: "When do conference applications open?",
+    a: `<p>Applications to attend CUCAI 2023 will open in the new year. Students accepted to the conference will soonafter be able to purchase tickets to the conference. </p>`,
   },
   {
-    q: "How selective is the application process?",
-    a: `<p>The application process this year is decided to be as inclusive as possible, in keeping with our mission to increase the accessibility of AI education at an undergraduate level. All applications that show a genuine effort and sincere passion for learning about AI will be accepted.</p>`,
+    q: "Will there be transportation available from my school?",
+    a: `<p>We will be offering transportation from our student partner schools to and from Queen's. Please contact your student organizaiton for more information. </p>`,
+  },
+  {
+    q: "How do I present my AI project at CUCAI 2023?",
+    a: `<p>If you are a part of one of our Student Partner Groups, you will be included in the Design Team Showcase through them. If you are not a part of a Student Organization and wish to present, please contact us at <a href="mailto:chair@cucai.ca">chair@cucai.ca</a>. </p>`,
   },
 ];
 
