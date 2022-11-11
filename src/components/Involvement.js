@@ -87,7 +87,7 @@ const Involved = () => {
                   partner with Student Organization throughout Canada to send delegates
                   interested in AI who present their projects at CUCAI.
                   If you are a part of a student organization and want to be a part of 
-                  CUCAI, please do not hesitate to contact us at <a href="mailto:chair@cucai.ca">chair@cucai.ca</a>.
+                  CUCAI, please do not hesitate to contact us at <a href="mailto:chair@cucai.ca" >chair@cucai.ca</a>.
                   For more information, please download our Student Group Partnership Package below.
                 </p>
 
