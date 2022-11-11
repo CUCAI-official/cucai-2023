@@ -75,7 +75,7 @@ module.exports = {
     },
     {
       name: "U Vic AI",
-      link: "https://www.instagram.com/aiyu.ca/?igshid=YmMyMTA2M2Y%3D",
+      link: "https://www.linkedin.com/company/uvic-ai",
     },
   ],
   conferenceImages: [
