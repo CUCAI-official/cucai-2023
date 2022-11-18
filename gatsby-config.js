@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'CUCAI 2021',
+    title: 'CUCAI 2023',
     description:
       'Official site for the Canadian Undergraduate Conference on Artificial Intelligence',
   },
