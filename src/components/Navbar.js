@@ -7,7 +7,7 @@ import theme from "../styles/theme";
 import media from "../styles/media";
 
 import { navLinks, studentGroups } from "../config";
-import LogoSmall from "../img/logoSmall.svg";
+import LogoSmall from "../img/logo-160x160.svg";
 
 import Burger from "./Burger";
 import Socials from "./Socials";
