@@ -382,7 +382,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    robbie: file(relativePath: { eq: "team/tung-pham.png" }) {
+    robbie: file(relativePath: { eq: "team/robbie-huang.png" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid
