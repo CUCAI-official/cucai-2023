@@ -94,7 +94,7 @@ const Header = styled.div`
 const SponsorTiers = () => {
   const data = useStaticQuery(graphql`
     query SponsorQuery {
-      queensEng: file(relativePath: { eq: "sponsors/queensEng.jpg" }) {
+      spons: file(relativePath: { eq: "sponsors/spons.jpg" }) {
         childImageSharp {
           fluid(quality: 100) {
             ...GatsbyImageSharpFluid
@@ -179,8 +179,8 @@ const SponsorTiers = () => {
   const titleSpons = [
     {
       name: "Queen's Faculty of Engineering & Applied Science",
-      picture: data.queensEng.childImageSharp.fluid,
-      link: "https://engineering.queensu.ca/",
+      picture: data.spons.childImageSharp.fluid,
+      //link: "https://engineering.queensu.ca/",
     },
   ];
 
@@ -246,22 +246,23 @@ const SponsorTiers = () => {
         <h1>Our Past Sponsors</h1>
         <h2>Thank you so much for making CUCAI possible!</h2>
       </Header>
-      <h6>Title</h6>
+      {/* <h6>Title</h6> */}
       <TitleSponsors>
         {titleSpons.map((sponsor, i) => (
           <SponsorLink
-            key={i}
-            target="_blank"
-            rel="noreferrer"
-            href={sponsor.link}
-            alt={sponsor.name}
+            // key={i}
+            // target="_blank"
+            // rel="noreferrer"
+            // href="#"
+            // alt="#"
           >
-            <Img fluid={sponsor.picture} alt={sponsor.name} />
+            <Img fluid={sponsor.picture} alt={sponsor.name} /> 
           </SponsorLink>
         ))}
       </TitleSponsors>
+    </StyledSponsorTiers> 
 
-      <h6>Gold</h6>
+      /* <h6>Gold</h6>
       <GoldSponsors>
         {goldSpons.map((sponsor, i) => (
           <SponsorLink
@@ -290,7 +291,7 @@ const SponsorTiers = () => {
           </SponsorLink>
         ))}
       </SilverSponsors>
-    </StyledSponsorTiers>
+    </StyledSponsorTiers> */
   );
 };
 
