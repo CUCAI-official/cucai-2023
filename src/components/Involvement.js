@@ -91,7 +91,7 @@ const Involved = () => {
                   For more information, please download our Student Group Partnership Package below.
                 </p>
 
-                  <a href="CUCAI Student Group Partnership Package.pdf">
+                  <a href="Student Organization Package.pdf">
                     <Button borderStyle="solid">
                       Student Group Partnership Package
                     </Button>
