@@ -850,7 +850,7 @@ const SponsorSection = ({ data }) => (
               Interested in sponsoring? Please contact our chairs at{" "}
               <u>chair@cucai.ca</u>
             </p>
-            <a href="Student Organization Package.pdf">
+            <a href="CUCAI 2023 Sponsorship Package.pdf">
               <Button backgroundColour="white" borderStyle="none">
                 View Our Sponsorship Package
               </Button>
