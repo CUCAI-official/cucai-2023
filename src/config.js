@@ -23,10 +23,10 @@ module.exports = {
       name: "About",
       url: "/about",
     },
-    {
-      name: "Schedule",
-      url: "/schedule",
-    },
+    // {
+    //   name: "Schedule",
+    //   url: "/schedule",
+    // },
     {
       name: "Speakers",
       url: "/speakers",
