@@ -55,7 +55,7 @@ const Involved = () => {
                   <a 
                     target="_blank"
                     rel="noreferrer"
-                    href="https://discord.gg/eKy2Pgex">
+                    href="https://discord.gg/4XUUHy56">
                     <Button borderStyle="solid">
                       Join Our Discord
                     </Button>
