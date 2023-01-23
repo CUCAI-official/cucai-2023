@@ -525,7 +525,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
               rel="noreferrer"
               href="https://cucai2023.paperform.co"
             >
-              <Button backgroundColour="white">Register Now!</Button>
+              <Button backgroundColour="white"><b>Register Now!</b></Button>
             </a>
             <a href="#sponsors">
               <Button backgroundColour="white">Become a Sponsor</Button>
