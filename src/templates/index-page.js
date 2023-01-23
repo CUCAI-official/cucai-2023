@@ -528,7 +528,7 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
               <Button backgroundColour="white">Register Now!</Button>
             </a>
             <a href="#sponsors">
-              <Button borderStyle="white">Become a Sponsor</Button>
+              <Button backgroundColour="white">Become a Sponsor</Button>
             </a>
           </HeroButtons>
 
