@@ -523,14 +523,12 @@ const Hero = ({ data, heading, slogan, location, date, cta1, cta2 }) => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="CUCAI_2021_Proceedings.pdf"
+              href="https://cucai2023.paperform.co"
             >
-              <Button backgroundColour="white">Conference Proceedings</Button>
+              <Button backgroundColour="white">Register Now!</Button>
             </a>
             <a href="#sponsors">
-              <Button borderStyle="solid" borderColour="#174461">
-                Become a Sponsor
-              </Button>
+              <Button borderStyle="white">Become a Sponsor</Button>
             </a>
           </HeroButtons>
 
