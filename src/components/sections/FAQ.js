@@ -8,28 +8,28 @@ import upArrow from "../../img/up-arrow.svg";
 
 const questions = [
   {
-    q: "When is the conference taking place?",
-    a: `<p>CUCAI 2023 will be taking place on the weekend of March 4th and 5th. Events will run from 9:00 am to 7:00 pm on Saturday, and 10:00 am to 4:00 pm Sunday.</p>`,
+    q: "Who can attend CUCAI?",
+    a: `<p>Any undergraduate student from a Canadian university or college can attend CUCAI, irregardless of year of study or discipline. CUCAI is proud to welcome anybody, technical or non-technical, interested in a future with artificial intelligence.</p>`,
   },
   {
-    q: "Where is the conference taking place?",
-    a: `<p>This year, we are proud to be hosting CUCAI at it's birthplace on Queen's Campus in Kingston, Ontario.</p>`,
+    q: "Do I have to get accepted to attend?",
+    a: `<p>Unfortunately, due to the limited venue capacity and high demand for tickets, we will be allocating spots to those most eager to attend.</p>`,
   },
   {
-    q: "What is included with a ticket?",
-    a: `<p>The purchace of a ticket includes access to all conference events, as well as meals on both Saturday and Sunday during the conference hours, including a Gala Dinner Saturday evening, followed by a social. Tickets for non-Kingston residents will be available for discounted hotel accomodations. </p>`,
+    q: "Do I need to have an AI design or research project?",
+    a: `<p>You <b>do not</b> need to have an AI design or research project to attend CUCAI. We welcome anybody looking to gain exclusive insights and perspectives from the industries finest, or those looking for friends interested in the growing field of AI.</p>`,
   },
   {
-    q: "When do conference applications open?",
-    a: `<p>Applications to attend CUCAI 2023 will open in the new year. Students accepted to the conference will soonafter be able to purchase tickets to the conference. </p>`,
+    q: "What‘s included in the ticket?",
+    a: `<p>Both the <b>Conference</b> and <b>Conference + Hotel</b> tickets include access to the conference and all speakers, workshops, lunches on Saturday & Sunday, design-team showcase, and our Gala dinner hosted at the Four Points by Sheraton. Delegates who have selected the hotel option will receive two night of stay On Friday and Saturday.</p>`,
   },
   {
-    q: "Will there be transportation available from my school?",
-    a: `<p>We will be offering transportation from our student partner schools to and from Queen's. Please contact your student organizaiton for more information. </p>`,
+    q: "What is the CUCAI code of conduct?",
+    a: `<p>The CUCAI code of conduct is our policy to ensure the well-being of all delegates and that the conference remains a safe and welcoming place for all.</p>`,
   },
   {
-    q: "How do I present my AI project at CUCAI 2023?",
-    a: `<p>If you are a part of one of our Student Partner Groups, you will be included in the Design Team Showcase through them. If you are not a part of a Student Organization and wish to present, please contact us at <a href="mailto:chair@cucai.ca">chair@cucai.ca</a>. </p>`,
+    q: "Why should I attend?",
+    a: `<p>You’ve heard of OpenAI, ChatGPT, Co:here, and Deepmind in the news quite frequently. It is the age of artificial intelligence and there is no better way to experience it, than with others passionate about the space. CUCAI is the perfect place for that.</p>`,
   },
 ];
 
