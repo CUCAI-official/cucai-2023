@@ -32,8 +32,16 @@ const questions = [
     a: `<p>You’ve heard of OpenAI, ChatGPT, Co:here, and Deepmind in the news quite frequently. It is the age of artificial intelligence and there is no better way to experience it, than with others passionate about the space. CUCAI is the perfect place for that.</p>`,
   },
   {
-    q: "Why should I attend?",
-    a: `<p>You’ve heard of OpenAI, ChatGPT, Co:here, and Deepmind in the news quite frequently. It is the age of artificial intelligence and there is no better way to experience it, than with others passionate about the space. CUCAI is the perfect place for that.</p>`,
+    q: "What is the gala?",
+    a: `<p>The Gala is our celebratory portion of the event. It will be hosted at the Four Points by Sheraton and will include dinner, a photo-booth, and awards for the best design projects from the showcase.</p>`,
+  },  
+  {
+    q: "Is transportation provided?",
+    a: `<p>Unfortunately, transportation is not provided to and from the conference. Delegates must plan and arrange their own transportation.</p>`,
+  },
+  {
+    q: "Where can I apply?",
+    a: `<p>Applications are open on the LinkTree in our bio, as well as on www.cucai2023.paperform.co. Application close on February 10, 2023.</p>`,
   },
 ];
 
