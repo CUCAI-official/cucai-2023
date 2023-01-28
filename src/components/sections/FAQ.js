@@ -31,6 +31,10 @@ const questions = [
     q: "Why should I attend?",
     a: `<p>You’ve heard of OpenAI, ChatGPT, Co:here, and Deepmind in the news quite frequently. It is the age of artificial intelligence and there is no better way to experience it, than with others passionate about the space. CUCAI is the perfect place for that.</p>`,
   },
+  {
+    q: "Why should I attend?",
+    a: `<p>You’ve heard of OpenAI, ChatGPT, Co:here, and Deepmind in the news quite frequently. It is the age of artificial intelligence and there is no better way to experience it, than with others passionate about the space. CUCAI is the perfect place for that.</p>`,
+  },
 ];
 
 const IdHrefAnchor = styled.a`
